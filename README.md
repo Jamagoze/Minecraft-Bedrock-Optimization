@@ -1,4 +1,6 @@
 # Minecraft-Bedrock-Optimization
+Resource Pack Link:
+https://drive.google.com/file/d/1S753XPmMDaT3SBfeSYnxtTHxCZG_lBdl/view?usp=drivesdk
 
 Device Minimum Requirements:
 
