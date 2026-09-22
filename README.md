@@ -7,7 +7,7 @@ https://drive.google.com/file/d/1Z9rPrjw0hUwW5HFZM5y5FYokzt81OPYx/view?usp=drive
 
 Device Minimum Requirements:
 
-Version 1.26.51 (May work for older Version too)
+Version 1.26.51 (May work for older Version too via Changing Version Info in Manifest.json)
 
 Up to Version 1.26.60!
 
