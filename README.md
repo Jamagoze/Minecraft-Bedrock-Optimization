@@ -10,7 +10,7 @@ https://drive.google.com/file/d/1seNUPNAju6o9VRwSRBm_dkZ8zXcgka5P/view?usp=drive
 Resource Pack Link (Audio Optimization):
 https://drive.google.com/file/d/1wcjBwT7v-UMUGqWTYQd6WA9tO-O0m5_B/view?usp=drivesdk
 
-Behavior Pack Link (For Entity, Items, World Gen Optimization):
+Behavior Pack Link (For Entity, Items, World Gen Data Optimization):
 https://drive.google.com/file/d/1Z9rPrjw0hUwW5HFZM5y5FYokzt81OPYx/view?usp=drivesdk
 
 =====================================================================
