@@ -1,6 +1,5 @@
 # Minecraft-Bedrock-Optimization
 
-======================================================================
 Version 3 (Bug Fix and Even more Faster Texture Optimizations) New
 - Fix Breaking Block Texture
 - Fix Cake and Candle Related Issues
@@ -15,6 +14,7 @@ Behavior Pack Link (For Entity, Items, World Gen Optimization):
 https://drive.google.com/file/d/1Z9rPrjw0hUwW5HFZM5y5FYokzt81OPYx/view?usp=drivesdk
 
 =====================================================================
+
 Device Minimum Requirements:
 
 Version 1.26.51 (May work for older Version too via Changing Version Info in Manifest.json)
@@ -29,6 +29,7 @@ That's all.
 
 
 ======================================================================
+
 Archive Version Changes:
 
 Version 1 OLD
@@ -41,6 +42,7 @@ https://drive.google.com/file/d/1Z9rPrjw0hUwW5HFZM5y5FYokzt81OPYx/view?usp=drive
 
 
 ======================================================================
+
 Version 2 (Seperate Audio and Texture Optimization) OLD
 - Fixed Custom Shield Textures.
 - Faster Audio Read.
