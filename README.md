@@ -13,6 +13,9 @@ https://drive.google.com/file/d/1wcjBwT7v-UMUGqWTYQd6WA9tO-O0m5_B/view?usp=drive
 Behavior Pack Link (For Entity, Items, World Gen Data Optimization):
 https://drive.google.com/file/d/1Z9rPrjw0hUwW5HFZM5y5FYokzt81OPYx/view?usp=drivesdk
 
+Note: 
+- This Will Disable Achievments only enable Resource Pack in global Settings not Per World (If you want Achievements to work)
+- Incompatible with other Addons
 =====================================================================
 
 Device Minimum Requirements:
