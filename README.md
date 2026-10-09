@@ -16,7 +16,27 @@ https://drive.google.com/file/d/1Z9rPrjw0hUwW5HFZM5y5FYokzt81OPYx/view?usp=drive
 Note:
 - This will disable achievements. Only enable the resource pack in Global Settings, not per world (if you want achievements to work).
 - Incompatible with other add-ons.
+  
+Optimization Explained:
+graph TD
+    Start([Spawn Entity: Creeper]) --> Read[Read Behavior, Spawn Rules, Loot]
+    Read --> LoadBranch[Load Unoptimized Branching Resource Pack Code]
+    
+    LoadBranch --> ScanAssets[Find Latest Resources in Assets: vanilla, vanilla_1.16.0, 1.16.100...]
+    ScanAssets --> LoadFiles[Load Textures, Models, Animations, Render Controllers]
+    
+    LoadFiles --> CheckMinified{Are resources minified?}
+    
+    CheckMinified -->|No - Unoptimized| Unopt[Load unminified paths: textures/entity/creeper/creeper.png]
+    Unopt --> Slow[Game Resource Loading is Slower]
+    
+    CheckMinified -->|Yes - Optimized| Opt[Load minified mapping: textures: default: bfm, charged: bfn]
+    Opt --> Fast[Game Resources Load Much Faster]
 
+    style Start fill:#2b4c3f,stroke:#4e9a7e,stroke-width:2px,color:#fff
+    style CheckMinified fill:#5c4033,stroke:#e9b96e,stroke-width:2px,color:#fff
+    style Slow fill:#5c2d2d,stroke:#ef2929,stroke-width:2px,color:#fff
+    style Fast fill:#204a87,stroke:#3465a4,stroke-width:2px,color:#fff
 =====================================================================
 
 Device Minimum Requirements:
