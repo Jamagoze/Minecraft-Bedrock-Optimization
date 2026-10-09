@@ -38,6 +38,8 @@ graph TD
     style CheckMinified fill:#5c4033,stroke:#e9b96e,stroke-width:2px,color:#fff
     style Slow fill:#5c2d2d,stroke:#ef2929,stroke-width:2px,color:#fff
     style Fast fill:#204a87,stroke:#3465a4,stroke-width:2px,color:#fff
+
+
 =====================================================================
 
 Device Minimum Requirements:
