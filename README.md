@@ -25,7 +25,7 @@ graph TD
     Read --> Branch{Resource Optimization State?}
 
     %% Path A: No Optimization (Vanilla)
-    Branch -->|No Optimization| UnoptBranch[Scan Standard Asset Tree]
+    Branch -->|No Optimization| UnoptBranch[Scan every .json file across latest assets: vanilla, vanilla_1.16.0, 1.16.100...]
     UnoptBranch --> LoadUnopt[Load full unminified paths: textures/entity/creeper/creeper.png]
     LoadUnopt --> ParseUnopt[Parse full JSON models, animations, & render controllers]
     ParseUnopt --> Slow[Game Resource Loading is Slower & Higher Disk/RAM Overhead]
