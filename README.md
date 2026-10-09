@@ -21,20 +21,22 @@ Optimization Explained:
 ```mermaid
 graph TD
     Start([Spawn Entity: Creeper]) --> Read[Read Behavior, Spawn Rules, Loot]
-    Read --> LoadBranch[Load Unoptimized Branching Resource Pack Code]
     
-    LoadBranch --> ScanAssets[Find Latest Resources in Assets: vanilla, vanilla_1.16.0, 1.16.100...]
-    ScanAssets --> LoadFiles[Load Textures, Models, Animations, Render Controllers]
-    
-    LoadFiles --> CheckMinified{Are resources minified?}
-    
-    CheckMinified -->|No - Unoptimized| Unopt[Load unminified paths: textures/entity/creeper/creeper.png]
-    Unopt --> Slow[Game Resource Loading is Slower]
-    
-    CheckMinified -->|Yes - Optimized| Opt[Load minified mapping: textures: default: bfm, charged: bfn]
-    Opt --> Fast[Game Resources Load Much Faster]
+    Read --> Branch{Resource Optimization State?}
+
+    %% Path A: No Optimization (Vanilla)
+    Branch -->|No Optimization| UnoptBranch[Scan Standard Asset Tree]
+    UnoptBranch --> LoadUnopt[Load full unminified paths: textures/entity/creeper/creeper.png]
+    LoadUnopt --> ParseUnopt[Parse full JSON models, animations, & render controllers]
+    ParseUnopt --> Slow[Game Resource Loading is Slower & Higher Disk/RAM Overhead]
+
+    %% Path B: Bedrock Optimization
+    Branch -->|Bedrock Optimization| OptBranch[Scan Latest Resources in Assets: vanilla, vanilla_1.16.0...]
+    OptBranch --> LoadOpt[Load minified mapping: textures: default: bfm, charged: bfn]
+    LoadOpt --> ParseOpt[Process stripped and compressed asset identifiers]
+    ParseOpt --> Fast[Game Resources Load Much Faster & Reduced Memory Footprint]
 
     style Start fill:#2b4c3f,stroke:#4e9a7e,stroke-width:2px,color:#fff
-    style CheckMinified fill:#5c4033,stroke:#e9b96e,stroke-width:2px,color:#fff
+    style Branch fill:#5c4033,stroke:#e9b96e,stroke-width:2px,color:#fff
     style Slow fill:#5c2d2d,stroke:#ef2929,stroke-width:2px,color:#fff
     style Fast fill:#204a87,stroke:#3465a4,stroke-width:2px,color:#fff
