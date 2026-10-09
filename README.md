@@ -26,13 +26,13 @@ graph TD
 
     %% Path A: No Optimization (Vanilla)
     Branch -->|No Optimization| UnoptBranch[Scan every .json file across latest assets: vanilla, vanilla_1.16.0, 1.16.100...]
-    UnoptBranch --> LoadUnopt[Load full unminified paths: "textures":{"default":"textures/entity/creeper/creeper"]
+    UnoptBranch --> LoadUnopt[Load full unminified paths: textures/entity/creeper/creeper]
     LoadUnopt --> ParseUnopt[Parse full JSON models, animations, & render controllers]
     ParseUnopt --> Slow[Game Resource Loading is Slower & Higher Disk/RAM Overhead]
 
     %% Path B: Bedrock Optimization
     Branch -->|Bedrock Optimization| OptBranch[Scan Latest Resources in Assets: Bedrock Optimizations.mcpack]
-    OptBranch --> LoadOpt[Load minified mapping sample: "textures":{"default":"bfm"]
+    OptBranch --> LoadOpt[Load minified mapping sample: textures: default: bfm]
     LoadOpt --> ParseOpt[Process minified codes]
     ParseOpt --> Fast[Game Resources Load Much Faster & Reduced Memory Footprint]
 
