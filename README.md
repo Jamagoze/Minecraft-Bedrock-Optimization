@@ -1,11 +1,9 @@
 # Minecraft-Bedrock-Optimization
 
-Version 3 (Bug Fixes and Even Faster Texture Optimization) NEW
-- Fixed breaking block textures
-- Fixed cake- and candle-related issues
+Version 4 (Added the Use of Brarchive)
 
-Resource Pack Link (Texture Optimization V3):
-https://drive.google.com/file/d/1seNUPNAju6o9VRwSRBm_dkZ8zXcgka5P/view?usp=drivesdk
+Resource Pack Link (Texture Optimization V4):
+https://drive.google.com/file/d/1cLtkj3VKBlBHZmRSihPyqCJVLWiTt28P/view?usp=drivesdk
 
 Resource Pack Link (Audio Optimization):
 https://drive.google.com/file/d/1wcjBwT7v-UMUGqWTYQd6WA9tO-O0m5_B/view?usp=drivesdk
