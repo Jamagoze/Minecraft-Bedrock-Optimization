@@ -18,6 +18,7 @@ Note:
 - Incompatible with other add-ons.
   
 Optimization Explained:
+```mermaid
 graph TD
     Start([Spawn Entity: Creeper]) --> Read[Read Behavior, Spawn Rules, Loot]
     Read --> LoadBranch[Load Unoptimized Branching Resource Pack Code]
