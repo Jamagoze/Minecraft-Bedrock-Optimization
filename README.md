@@ -17,6 +17,10 @@ Note:
 - This will disable achievements. Only enable the resource pack in Global Settings, not per world (if you want achievements to work).
 - Incompatible with other add-ons.
   
+<img width="1632" height="1020" alt="1000182529" src="https://github.com/user-attachments/assets/deaaaaa1-76c4-4ed8-84ee-ab6e80caf620" />
+<img width="1632" height="1020" alt="1000146164" src="https://github.com/user-attachments/assets/c653ae37-53c7-4ef6-8822-5877083f77bf" />
+<img width="1632" height="1020" alt="1000826871" src="https://github.com/user-attachments/assets/809774bb-72fe-4f9a-acba-3a0afdc6f5c6" />
+
 Optimization Explained:
 ```mermaid
 graph TD
@@ -38,6 +42,3 @@ graph TD
     style CheckMinified fill:#5c4033,stroke:#e9b96e,stroke-width:2px,color:#fff
     style Slow fill:#5c2d2d,stroke:#ef2929,stroke-width:2px,color:#fff
     style Fast fill:#204a87,stroke:#3465a4,stroke-width:2px,color:#fff
-<img width="1632" height="1020" alt="1000182529" src="https://github.com/user-attachments/assets/deaaaaa1-76c4-4ed8-84ee-ab6e80caf620" />
-<img width="1632" height="1020" alt="1000146164" src="https://github.com/user-attachments/assets/c653ae37-53c7-4ef6-8822-5877083f77bf" />
-<img width="1632" height="1020" alt="1000826871" src="https://github.com/user-attachments/assets/809774bb-72fe-4f9a-acba-3a0afdc6f5c6" />
