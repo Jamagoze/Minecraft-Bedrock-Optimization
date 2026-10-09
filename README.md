@@ -5,13 +5,13 @@ Version 3 (Bug Fixes and Even Faster Texture Optimization) NEW
 - Fixed cake- and candle-related issues
 
 Resource Pack Link (Texture Optimization V3):
-[https://drive.google.com/file/d/1seNUPNAju6o9VRwSRBm_dkZ8zXcgka5P/view?usp=drivesdk](https://drive.google.com/file/d/1seNUPNAju6o9VRwSRBm_dkZ8zXcgka5P/view?usp=drivesdk)
+https://drive.google.com/file/d/1seNUPNAju6o9VRwSRBm_dkZ8zXcgka5P/view?usp=drivesdk
 
 Resource Pack Link (Audio Optimization):
-[https://drive.google.com/file/d/1wcjBwT7v-UMUGqWTYQd6WA9tO-O0m5_B/view?usp=drivesdk](https://drive.google.com/file/d/1wcjBwT7v-UMUGqWTYQd6WA9tO-O0m5_B/view?usp=drivesdk)
+https://drive.google.com/file/d/1wcjBwT7v-UMUGqWTYQd6WA9tO-O0m5_B/view?usp=drivesdk
 
 Behavior Pack Link (For Entity, Item, and World Generation Data Optimization):
-[https://drive.google.com/file/d/1Z9rPrjw0hUwW5HFZM5y5FYokzt81OPYx/view?usp=drivesdk](https://drive.google.com/file/d/1Z9rPrjw0hUwW5HFZM5y5FYokzt81OPYx/view?usp=drivesdk)
+https://drive.google.com/file/d/1Z9rPrjw0hUwW5HFZM5y5FYokzt81OPYx/view?usp=drivesdk
 
 Note:
 - This will disable achievements. Only enable the resource pack in Global Settings, not per world (if you want achievements to work).
