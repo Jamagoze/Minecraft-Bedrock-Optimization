@@ -5,13 +5,13 @@ Version 3 (Bug Fixes and Even Faster Texture Optimization) NEW
 - Fixed cake- and candle-related issues
 
 Resource Pack Link (Texture Optimization V3):
-https://drive.google.com/file/d/1seNUPNAju6o9VRwSRBm_dkZ8zXcgka5P/view?usp=drivesdk
+[https://drive.google.com/file/d/1seNUPNAju6o9VRwSRBm_dkZ8zXcgka5P/view?usp=drivesdk](https://drive.google.com/file/d/1seNUPNAju6o9VRwSRBm_dkZ8zXcgka5P/view?usp=drivesdk)
 
 Resource Pack Link (Audio Optimization):
-https://drive.google.com/file/d/1wcjBwT7v-UMUGqWTYQd6WA9tO-O0m5_B/view?usp=drivesdk
+[https://drive.google.com/file/d/1wcjBwT7v-UMUGqWTYQd6WA9tO-O0m5_B/view?usp=drivesdk](https://drive.google.com/file/d/1wcjBwT7v-UMUGqWTYQd6WA9tO-O0m5_B/view?usp=drivesdk)
 
 Behavior Pack Link (For Entity, Item, and World Generation Data Optimization):
-https://drive.google.com/file/d/1Z9rPrjw0hUwW5HFZM5y5FYokzt81OPYx/view?usp=drivesdk
+[https://drive.google.com/file/d/1Z9rPrjw0hUwW5HFZM5y5FYokzt81OPYx/view?usp=drivesdk](https://drive.google.com/file/d/1Z9rPrjw0hUwW5HFZM5y5FYokzt81OPYx/view?usp=drivesdk)
 
 Note:
 - This will disable achievements. Only enable the resource pack in Global Settings, not per world (if you want achievements to work).
@@ -40,13 +40,3 @@ graph TD
     style Branch fill:#5c4033,stroke:#e9b96e,stroke-width:2px,color:#fff
     style Slow fill:#5c2d2d,stroke:#ef2929,stroke-width:2px,color:#fff
     style Fast fill:#204a87,stroke:#3465a4,stroke-width:2px,color:#fff
-
-### Visual Preview & Minified Asset Structure
-
-**Optimized Asset Structure:**
-![Optimized Assets](https://raw.githubusercontent.com/Jamagoze/Minecraft-Bedrock-Optimization/main/Optimized.png)
-
-**In-Performance & Visual Verification:**
-| Weather / Environment | Gameplay & Rendering |
-| :---: | :---: |
-| ![Survival](https://raw.githubusercontent.com/Jamagoze/Minecraft-Bedrock-Optimization/main/Survival.png) | ![Sample](https://raw.githubusercontent.com/Jamagoze/Minecraft-Bedrock-Optimization/main/Sample.png) |
