@@ -2,14 +2,7 @@
 
 Version 4 (Added the Use of Brarchive)
 
-Resource Pack Link (Texture Optimization V4):
-https://drive.google.com/file/d/1cLtkj3VKBlBHZmRSihPyqCJVLWiTt28P/view?usp=drivesdk
-
-Resource Pack Link (Audio Optimization):
-https://drive.google.com/file/d/1wcjBwT7v-UMUGqWTYQd6WA9tO-O0m5_B/view?usp=drivesdk
-
-Behavior Pack Link (For Entity, Item, and World Generation Data Optimization):
-https://drive.google.com/file/d/1Z9rPrjw0hUwW5HFZM5y5FYokzt81OPYx/view?usp=drivesdk
+Resource Pack Available on Releases.
 
 Note:
 - This will disable achievements. Only enable the resource pack in Global Settings, not per world (if you want achievements to work).
